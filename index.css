@@ -1,3 +1,15 @@
-body{
+#page-top{
+
     font-family: 'Montserrat';
+}
+
+#loginbutton{
+    color: white;
+    background-color: dodgerblue;
+}
+
+#logo{
+    font-family: 'Pacifico', cursive;
+    color: lawngreen;
+    font-size: 30px;
 }
