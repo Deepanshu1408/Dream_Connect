@@ -13,3 +13,33 @@
     color: lawngreen;
     font-size: 30px;
 }
+
+#baseimg{
+
+    background-image: url('D:\Dev\Deepanshu Website\base.jpg') ;
+    height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#text1{
+     font-family: 'Pacifico', cursive;
+     font-size: 60px;
+     color: antiquewhite;
+    padding-top: 300px;
+   text-align: center; 
+}
+
+#about1{
+    font-family: 'Montserrat';
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.col text-center{
+    float: left;
+}
