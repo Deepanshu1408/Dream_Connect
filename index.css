@@ -1,23 +1,22 @@
-#page-top{
-
-    font-family: 'Montserrat';
+#page-top {
+  font-family: "Montserrat";
 }
 
-#loginbutton{
-    color: white;
-    background-color: dodgerblue;
+#loginbutton {
+  color: white;
+  background-color: dodgerblue;
+  width: 110px;
 }
 
-#logo{
-    font-family: 'Pacifico', cursive;
-    color: lawngreen;
-    font-size: 30px;
+#logo {
+  font-family: "Pacifico", cursive;
+  color: lawngreen;
+  font-size: 30px;
 }
 
-#baseimg{
-
-    background-image: url('D:\Dev\Deepanshu Website\base.jpg') ;
-    height: 100%;
+#baseimg {
+  background-image: url("D:\Dev\Deepanshu Website\base.jpg");
+  height: 100%;
 
   /* Center and scale the image nicely */
   background-position: center;
@@ -25,21 +24,88 @@
   background-size: cover;
 }
 
-#text1{
-     font-family: 'Pacifico', cursive;
-     font-size: 60px;
-     color: antiquewhite;
-    padding-top: 300px;
-   text-align: center; 
+#text1 {
+  font-family: "Pacifico", cursive;
+  font-size: 60px;
+  color: antiquewhite;
+  padding-top: 300px;
+  text-align: center;
 }
 
-#about1{
-    font-family: 'Montserrat';
-    font-size: 35px;
-    font-weight: bold;
-    text-align: center;
+#about1 {
+  font-family: "Montserrat";
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center;
 }
 
-.col text-center{
-    float: left;
+.col text-center {
+  float: left;
+}
+
+#section1 {
+  margin-top: 90px;
+}
+
+#section2 {
+  margin-top: 90px;
+}
+
+i {
+  margin-top: 20%;
+  color: brown;
+}
+
+#ContactUs {
+  background-color: #212529;
+  margin-top: 90px;
+}
+
+#name {
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-bottom: 57px;
+  border: 4px solid #99ccff;
+  border-radius: 25px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-family: "Montserrat";
+}
+#message {
+  margin-top: 50px;
+  margin-left: 110px;
+  border-radius: 25px;
+  border: 4px solid #99ccff;
+  font-family: "Montserrat";
+}
+
+#cont1 {
+  margin-top: 50px;
+  color: white;
+}
+
+#sendMessageButton {
+  background-color: #99ccff;
+  font-family: "Montserrat";
+  font-size: 30px;
+  border: 4px solid #99ccff;
+  border-radius: 25px;
+  color: white;
+}
+
+#foot {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.f_enter {
+  animation: fadeInUp 1s ease forwards;
+  will-change: transform, opacity;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+nav.sticky {
+  padding: 5px 100px;
 }

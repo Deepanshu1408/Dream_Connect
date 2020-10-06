@@ -6,9 +6,12 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
 <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
-</head>
+<link rel="stylesheet" href="Asserts/css/all.min.css">
+<link rel="stylesheet" href="Asserts/css/all.css">
+<script src="Asserts/JS/index.js"></script>
+
 <body id="page-top">
-    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark" id="mainNav">
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-dark" class="sticky" id="mainNav">
         <div class="container"><a id='logo' class="navbar-brand" href="index.html">Dream-Connect</a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right" type="button" data-toogle="collapse" aria-controls="navbarResponsive" aria-expanded="false"
             aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
 
@@ -17,36 +20,40 @@
                     <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger"  href="#About">About us</a></li>
                     <li class="nav-item" role="presentation"> <a class="nav-link js-scroll-trigger"   href="#Services">Services</a></li>
                      <li class="nav-item" role="presentation"><a class="nav-link js-scroll-trigger" href="#ContactUs">Contact US</a></li>
-                     <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Register</a>
+                     <!-- <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#">Register</a>
                         <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="student_reg.html">Student</a><a class="dropdown-item" role="presentation" href="tpo_reg.html">TPO(placement head)</a></div>
-                    </li>
-                </ul><a class="btn btn-primary" id="loginbutton" role="button" href="login.html">Login</a></div>
-                
+                    </li> -->
+                     <!-- </ul> -->
+                    
+                </ul>
+                <a class="btn btn-primary" id="loginbutton" role="button" href="login.html">Login</a>                
             </div>
-          </nav>
+        </nav>
+
+    
     
           <header class="masthead" id="baseimg" style="background-image: url('base.jpg');">
 
            <!-- <img src="D:\Dev\Deepanshu Website\base.jpg" alt="" width="100%"> -->
            <div class="container" id="text1">
             <div class="intro-text">
-                <div class="intro-lead-in"><span>Welcome To Our Website!</span></div>
+                <div class="intro-lead-in"><span data-animate="f_enter">Welcome To Our Website!</span></div>
                 <!-- <div class="intro-heading text-uppercase"><span style="color: rgb(228,176,42); font-family:'Montserrat'; font-weight: bold ;">want to get a job?</span></div><a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" role="button" style="font-family:'Montserrat'; font-weight: bold" href="#services">Tell me more</a></div> -->
         </div>
 
           </header>
 
           <section id="About">
-              <div class="jumbotron">
+              <div class="container">
                   <div class="row">
                       <div class="col-lg-12 text-center">
-                          <h1  class="text-uppercase section-heading">About Us</h1>
+                          <h1  class="text-uppercase section-heading" id="section1">About Us</h1>
                       </div>
                   </div>
 
                   <div class="row">
-                      <div class="col text-center"> <img class="rounded-circle" style="margin-left: 30px" ; src="D:\Dev\Deepanshu Website\Asserts\Images\About\3.jpg" alt="" style="float: left;"></div>
-                      <div><p class="text-left" style="float: right; margin-top: 20px;">This is my first website &nbsp; gjhffdaghfghadfghafgadfadfadfad &nbsp; gjhgdjhgjgjgjhgjhgj hgjhgjhgjgjh&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></div>
+                      <div class="col-sm-3 text-center"> <img class="rounded-circle" style="margin-left: 5px; border: 1px black solid" src="D:\Dev\Deepanshu Website\Asserts\Images\About\3.jpg" alt="" style="float: left;"></div>
+                      <div class="col"><p class=" col-lg-12 text-left" style="float: right; margin-top: 20px;  width: 100%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora corporis odit dolorum consectetur voluptatum esse repellendus aliquam voluptatibus deserunt eos quaerat, nesciunt neque pariatur vitae possimus consequuntur exercitationem voluptas rem.</p></div>
                   </div>
                    </div>
 
@@ -55,20 +62,97 @@
 
           <section id="Services">
 
-            <div class="jumbotron">
+            <div class="container">
              <div class="row">
               <div class="col-lg-12 text-center">
-                  <h1 class="text-uppercase section-heading">Services</h1>
+                  <h1 class="text-uppercase section-heading" id="section2">Services</h1>
+                  <h3 class="text-muted section-subheading">Have an overview of the services that we will provide you !!</h3>
               </div>
+              </div>
+                 <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x"><i class="fa fa-desktop"  data-bs-hover-animate="pulse"></i></span>
+                    <h3 class="section-heading">Job Opportunity</h2>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi est facilis obcaecati. Nobis exercitationem et minima sunt ut necessitatibus accusantium eius, ducimus natus iure accusamus, ex, ipsa itaque quaerat sit.</p>
+                </div>
 
-             </div>
-                 
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x"><i class="fa fa-tasks" data-bs-hover-animate="pulse"></i></span>
+                    <h3 class="section-heading">Trainings</h2>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quas quae vel? Similique quod molestias ducimus enim quam dolorum quae architecto, placeat vitae possimus nesciunt veritatis quisquam repellendus eum sed!</p>
+                </div>
+
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x"><i class="fa fa-check-circle"" data-bs-hover-animate="pulse"></i></span>
+                    <h3 class="section-heading">Secured Job</h2>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, maxime. Magni, odio, quaerat iste natus repellendus error vel possimus ipsum voluptas, deserunt molestias. Aliquid consectetur iure optio tempore placeat obcaecati?</p>
+                </div>
+
+                 </div>
             </div>
 
 
           </section>
 
-</header>
+          <section id="ContactUs">
+           <div class="container">
+               <div class="row">
+                   <div class="col-lg-12 text-center">
+                       <h1 id='cont1' class="section-heading text-uppercase">Contact Us</h1>
+                       <h3 id="cont1" class="section-subheading">Please fill this form to get in touch with us :)</h3>
+                   </div>
+               </div>
+           </div>
+           <div class="row">
+               <div class="col-lg-12">
+                   <form id="contactForm" novalidate="novalidate" name="form_name"  onsubmit="return validateContact_Us()">
+                   <div class="form-row">
+                    <!-- <div class="col col-md-4"></div> -->
+                       <div class="col col-md-4">
+                           <div class="form-group"><input class="form-control" type="text" id="name" placeholder="Your Name" name="Name" ><small class="form-text text-danger flex-grow-1 help-block lead"></small></div>
+                        <div class="form-group"><input class="form-control" type="email" id="name" placeholder="Your Email Id" name="Email"></div>
+                        <div class="form-group"><input class="form-control" type="tel" id="name" placeholder="Your Mobile Number**"></div>
+                       </div>
+                       <div class="col col-md-6">
+                           <div class="form-group"><textarea class="form-control" name="" id="message" cols="10" rows="10" placeholder="Your Message*"></textarea></div>
+                       </div>
+                        <!-- <div class="col col-md-4"></div> -->
+                   </div>  
+                    <div class="col">
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="col-lg-12 text-center">
+                        <div id="success"></div><button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton"
+                            type="submit" onclick="successMessage()">Send Message</button>
+                    </div>
+                    </div>
+                
+                
+                </form>
+               </div>
+           </div>
+          </section>
+
+<footer>
+<div  class="container">
+    <div class="row">
+        <div id='foot' class="col-md-4"><span class="copyright">Copyright&nbsp;© Deepanshu Sharma DC-2020</span></div>
+        <div class="col-md-4">
+            <ul class="list-inline social-buttons">
+                <li class="list-inline-item"><a href="#"><i class=""></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fa fa"></i></a></li>
+                <li class="list-inline-item"><a href="#"><i class="fa fa"></i></a></li>
+            </ul>
+        </div>
+        <div id='foot' class="col-md-4">
+            <ul class="list-inline quicklinks">
+                <li  class="list-inline-item"><a  href="#">Privacy Policy</a></li>
+                <li  class="list-inline-item"><a  href="#">Terms of Use</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</footer>
 </body>
 
 </html>
